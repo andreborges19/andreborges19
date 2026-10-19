@@ -52,7 +52,7 @@ Procuro ligar a **realidade da obra** à **engenharia de software**, criando fer
   <img src="./assets/github-stats.svg" width="500" alt="Estatísticas do GitHub de André Carvalho" />
 </div>
 
-<sub>Cartão atualizado automaticamente por GitHub Actions. Os valores podem não incluir atividade em repositórios privados. Se ainda surgir «A aguardar a primeira atualização», executar o workflow «Atualizar estatísticas do perfil» no separador Actions.</sub>
+<sub>Estatísticas atualizadas diariamente através do GitHub Actions. A atividade em repositórios privados pode não estar refletida nos valores apresentados.</sub>
 
 ---
 

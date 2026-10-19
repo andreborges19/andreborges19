@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="André Borges — Engenharia Civil, Construção e Tecnologia" />
+<img src="./assets/banner.svg" width="100%" alt="André Carvalho — Engenharia Civil, Construção e Tecnologia" />
 
 ### 🏗️ Fiscalização de Obra · Gestão da Construção · Controlo de Custos
 
 **Engenheiro Civil a desenvolver ferramentas digitais para uma construção mais organizada, previsível e eficiente.**
 
-<a href="https://www.linkedin.com/in/andreborges19"><img alt="LinkedIn — André Borges" src="https://img.shields.io/badge/LinkedIn-André_Borges-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/andreborges19"><img alt="GitHub — andreborges19" src="https://img.shields.io/badge/GitHub-andreborges19-24292F?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/andreborges19"><img alt="LinkedIn — André Carvalho" src="https://img.shields.io/badge/LinkedIn-André_Carvalho-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/andreborges19"><img alt="GitHub — André Carvalho" src="https://img.shields.io/badge/GitHub-André_Carvalho-24292F?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
@@ -49,7 +49,7 @@ Procuro ligar a **realidade da obra** à **engenharia de software**, criando fer
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./assets/github-stats.svg" width="500" alt="Estatísticas do GitHub de andreborges19" />
+  <img src="./assets/github-stats.svg" width="500" alt="Estatísticas do GitHub de André Carvalho" />
 </div>
 
 <sub>Cartão atualizado automaticamente por GitHub Actions. Os valores podem não incluir atividade em repositórios privados. Se ainda surgir «A aguardar a primeira atualização», executar o workflow «Atualizar estatísticas do perfil» no separador Actions.</sub>

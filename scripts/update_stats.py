@@ -29,11 +29,11 @@ stars = sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork"))
 followers = user.get("followers", 0)
 updated = datetime.now(timezone.utc).strftime("%d/%m/%Y")
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="550" height="205" viewBox="0 0 550 205" role="img">
-<title>Estatísticas públicas do GitHub de {login}</title>
+<title>Estatísticas públicas do GitHub de André Carvalho</title>
 <rect width="550" height="205" rx="12" fill="#0d1117" stroke="#30363d"/>
 <rect x="24" y="23" width="5" height="28" rx="2" fill="#20a9c1"/>
 <text x="42" y="45" font-family="Arial,Helvetica,sans-serif" fill="#e6edf3" font-size="24" font-weight="bold">GitHub Stats</text>
-<text x="25" y="75" font-family="Arial,Helvetica,sans-serif" fill="#8b949e" font-size="14">{escape(login)}</text>
+<text x="25" y="75" font-family="Arial,Helvetica,sans-serif" fill="#8b949e" font-size="14">André Carvalho</text>
 <text x="26" y="115" font-family="Arial,Helvetica,sans-serif" fill="#9da7b3" font-size="14">REPOSITÓRIOS PÚBLICOS</text>
 <text x="26" y="149" font-family="Arial,Helvetica,sans-serif" fill="#e6edf3" font-weight="bold" font-size="29">{public_repos}</text>
 <text x="225" y="115" font-family="Arial,Helvetica,sans-serif" fill="#9da7b3" font-size="14">ESTRELAS RECEBIDAS</text>

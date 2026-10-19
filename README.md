@@ -2,7 +2,7 @@
 
 <img src="./assets/banner.svg" width="100%" alt="André Borges — Engenharia Civil, Construção e Tecnologia" />
 
-### 🏗️ Gestão de Construção · Direção de Obra · Controlo de Custos
+### 🏗️ Fiscalização de Obra · Gestão da Construção · Controlo de Custos
 
 **Engenheiro Civil a desenvolver ferramentas digitais para uma construção mais organizada, previsível e eficiente.**
 
@@ -15,8 +15,9 @@
 
 ## 👷 Sobre mim
 
-Sou engenheiro civil com experiência em **fiscalização de obras, direção de obra e gestão da construção**, com especial interesse em:
+Atualmente trabalho em **fiscalização de obras**, representando o Dono de Obra no acompanhamento técnico da empreitada. Tenho também experiência anterior em **apoio à direção de obra e preparação de empreitadas**, com especial interesse em:
 
+- **Fiscalização e qualidade:** conformidade com projetos, acompanhamento da execução e articulação entre intervenientes.
 - **Planeamento e produção:** sequências construtivas, recursos, produtividade e prazos.
 - **Orçamentação e custos:** mapas de quantidades, preços unitários, margens e desvios.
 - **Gestão contratual:** medições, subempreitadas, alterações e controlo documental.

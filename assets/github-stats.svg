@@ -3,7 +3,7 @@
 <rect width="500" height="190" rx="11" fill="#0d1117" stroke="#30363d"/>
 <rect x="19" y="23" width="5" height="28" rx="2" fill="#28b4cb"/>
 <text x="38" y="45" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="23">GitHub Stats</text>
-<text x="24" y="88" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="15">andreborges19</text>
+<text x="24" y="88" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="15">André Carvalho</text>
 <text x="24" y="127" fill="#c9d1d9" font-family="Arial, Helvetica, sans-serif" font-size="17">A aguardar a primeira atualização...</text>
 <text x="24" y="158" fill="#8b949e" font-family="Arial, Helvetica, sans-serif" font-size="12">Os números serão gerados automaticamente pelo GitHub Actions.</text>
 </svg>

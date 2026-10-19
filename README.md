@@ -1,17 +1,12 @@
 <div align="center">
 
-<img width="100%" alt="André — Engenharia Civil, Gestão de Construção e Tecnologia" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:164E63,100:0891B2&height=205&section=header&text=Andr%C3%A9%20%7C%20Engenharia%20Civil&fontSize=36&fontColor=FFFFFF&fontAlignY=37&desc=Constru%C3%A7%C3%A3o%20%2B%20Tecnologia&descSize=18&descAlignY=60" />
+<img src="./assets/banner.svg" width="100%" alt="André Borges — Engenharia Civil, Construção e Tecnologia" />
 
 ### 🏗️ Gestão de Construção · Direção de Obra · Controlo de Custos
 
 **Engenheiro Civil a desenvolver ferramentas digitais para uma construção mais organizada, previsível e eficiente.**
 
-<a href="https://www.linkedin.com/in/SUBSTITUIR-PELO-TEU-PERFIL/">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="https://github.com/y7kg8r6dgz-art">
-  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Projetos-24292F?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+[**GitHub — @andreborges19**](https://github.com/andreborges19) · **LinkedIn:** ligação a adicionar
 
 </div>
 
@@ -28,9 +23,7 @@ Sou engenheiro civil com experiência em **fiscalização de obras, direção de
 
 Procuro ligar a **realidade da obra** à **engenharia de software**, criando ferramentas úteis para quem gere empreitadas no terreno.
 
-## 🚧 Projeto em destaque
-
-### HUB Construção
+## 🚧 Projeto em destaque — HUB Construção
 
 **Plataforma web modular para apoiar a gestão comercial, a orçamentação e, progressivamente, o controlo de obras de empresas de construção.**
 
@@ -43,26 +36,24 @@ Procuro ligar a **realidade da obra** à **engenharia de software**, criando fer
 
 **Arquitetura:** monólito modular com Django e PostgreSQL.
 
-> 🔒 Projeto atualmente num repositório privado, ainda sem uma versão pública ou comercial.
+> 🔒 O HUB Construção encontra-se num repositório privado e ainda não tem versão pública ou comercial.
 
-## 🛠️ Tecnologias utilizadas no projeto
+## 🛠️ Tecnologias utilizadas
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,postgres,docker,git,github&theme=dark" alt="Python, Django, PostgreSQL, Docker, Git e GitHub" />
-</div>
+**Backend:** `Python` · `Django` · `PostgreSQL`
+
+**Desenvolvimento e infraestrutura:** `Docker` · `Git` · `GitHub`
 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" alt="Estatísticas públicas de GitHub de y7kg8r6dgz-art" src="https://github-readme-stats.vercel.app/api?username=y7kg8r6dgz-art&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
-  <br />
-  <img alt="Visualizações do perfil" src="https://komarev.com/ghpvc/?username=y7kg8r6dgz-art&label=Visualiza%C3%A7%C3%B5es%20do%20perfil&color=0891B2&style=flat" />
+  <img src="./assets/github-stats.svg" width="500" alt="Estatísticas do GitHub de andreborges19" />
 </div>
 
-<sub>Nota: o cartão de estatísticas utiliza dados públicos. O trabalho em repositórios privados poderá não aparecer nestes números.</sub>
+<sub>Cartão atualizado automaticamente por GitHub Actions. Os valores podem não incluir atividade em repositórios privados. Se ainda surgir «A aguardar a primeira atualização», executar o workflow «Atualizar estatísticas do perfil» no separador Actions.</sub>
 
 ---
 
 <div align="center">
-  <sub>Engenharia Civil × Tecnologia | Projetos desenvolvidos com foco na realidade da construção.</sub>
+<sub>Engenharia Civil × Tecnologia · Soluções digitais focadas na realidade da construção.</sub>
 </div>

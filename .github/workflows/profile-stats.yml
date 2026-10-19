@@ -4,9 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 5 * * *"
-  push:
-    paths:
-      - ".github/workflows/profile-stats.yml"
 
 permissions:
   contents: write
@@ -15,24 +12,20 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Obter o repositório
+      - name: Obter repositório
         uses: actions/checkout@v4
 
-      - name: Gerar cartão de estatísticas
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=andreborges19&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github
-          path: assets/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+      - name: Gerar estatísticas públicas
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_stats.py
 
-      - name: Publicar cartão atualizado
+      - name: Guardar cartão atualizado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/github-stats.svg
           if ! git diff --cached --quiet; then
-            git commit -m "chore: atualizar estatísticas do perfil"
+            git commit -m "chore: atualizar estatísticas públicas"
             git push
           fi

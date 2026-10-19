@@ -6,7 +6,8 @@
 
 **Engenheiro Civil a desenvolver ferramentas digitais para uma construção mais organizada, previsível e eficiente.**
 
-[**GitHub — @andreborges19**](https://github.com/andreborges19) · **LinkedIn:** ligação a adicionar
+<a href="https://www.linkedin.com/in/andreborges19"><img alt="LinkedIn — André Borges" src="https://img.shields.io/badge/LinkedIn-André_Borges-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/andreborges19"><img alt="GitHub — andreborges19" src="https://img.shields.io/badge/GitHub-andreborges19-24292F?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 

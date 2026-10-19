@@ -42,7 +42,9 @@ Procuro ligar a **realidade da obra** à **engenharia de software**, criando fer
 
 ## 🛠️ Tecnologias utilizadas
 
-<img src="https://skillicons.dev/icons?i=python,django,postgres,docker,git,github&theme=dark" alt="Python, Django, PostgreSQL, Docker, Git e GitHub" height="48" />
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,postgres,docker,git,github&theme=dark" alt="Python, Django, PostgreSQL, Docker, Git e GitHub" height="48" />
+</div>
 
 ## 📊 GitHub Stats
 

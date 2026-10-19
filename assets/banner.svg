@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="270" viewBox="0 0 1100 270" role="img" aria-labelledby="title desc">
+<title id="title">André Borges — Engenharia Civil e Tecnologia</title>
+<desc id="desc">Banner de perfil em tons azul-escuro e azul-petróleo, com referências ao desenho técnico e à construção.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="0.55" stop-color="#112d40"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M 35 0 L 0 0 0 35" fill="none" stroke="#36728e" stroke-opacity=".17" stroke-width="1"/></pattern>
+</defs>
+<rect width="1100" height="270" rx="15" fill="url(#bg)"/>
+<rect width="1100" height="270" rx="15" fill="url(#grid)"/>
+<rect x="0" y="0" width="8" height="270" rx="4" fill="#24a7c1"/>
+<path d="M760 230V138h58v92M818 230V87h72v143M890 230V125h63v105M953 230V161h54v69" fill="none" stroke="#4daabe" stroke-opacity=".35" stroke-width="3"/>
+<path d="M784 154h12m-12 22h12m36-69h12m-12 25h12m-12 25h12m37-17h14m-14 25h14m-14 25h14" fill="none" stroke="#8dd9e7" stroke-opacity=".5" stroke-width="3"/>
+<path d="M731 230H1050M732 62h295" stroke="#4daabe" stroke-opacity=".28" stroke-width="1.5" stroke-dasharray="6 7"/>
+<circle cx="1024" cy="56" r="12" fill="none" stroke="#24a7c1" stroke-width="2"/><circle cx="1024" cy="56" r="3" fill="#24a7c1"/>
+<text x="55" y="72" font-size="15" letter-spacing="4" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#66d3df">ENGENHARIA CIVIL × TECNOLOGIA</text>
+<text x="51" y="137" font-size="57" font-weight="800" letter-spacing="1" font-family="Arial, Helvetica, sans-serif" fill="#ffffff">ANDRÉ BORGES</text>
+<path d="M55 160H540" stroke="#24a7c1" stroke-width="2"/>
+<text x="55" y="191" font-size="19" font-family="Arial, Helvetica, sans-serif" fill="#d7e6ee">Gestão de Construção · Direção de Obra</text>
+<text x="55" y="221" font-size="19" font-family="Arial, Helvetica, sans-serif" fill="#d7e6ee">Planeamento · Orçamentação · Controlo de Custos</text>
+</svg>

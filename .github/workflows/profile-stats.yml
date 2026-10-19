@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 5 * * *"
+  push:
+    paths:
+      - ".github/workflows/profile-stats.yml"
 
 permissions:
   contents: write
@@ -15,17 +18,34 @@ jobs:
       - name: Obter repositório
         uses: actions/checkout@v4
 
-      - name: Gerar estatísticas públicas
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/update_stats.py
+      - name: Gerar cartão de estatísticas
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=andreborges19&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
-      - name: Guardar cartão atualizado
+      - name: Publicar cartão sem perder alterações recentes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/github-stats.svg
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: atualizar estatísticas públicas"
-            git push
+          if git diff --cached --quiet; then
+            echo "Sem alterações nas estatísticas."
+            exit 0
           fi
+
+          git commit -m "chore: atualizar estatísticas do perfil"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "O repositório mudou entretanto, a tentar novamente (tentativa $attempt)."
+            sleep 2
+          done
+          echo "Não foi possível publicar após 5 tentativas."
+          exit 1
